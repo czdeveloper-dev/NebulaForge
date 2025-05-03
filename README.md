@@ -1,50 +1,53 @@
-# 🔧 NebulaForge – Dự án phần cứng bảo mật với ESP32
+# 🔧 NebulaForge – 2.4GHz frequency jammer device
 
-NEBULAFORGE là thiết bị gây nhiễu tần số 2.4GHz, có khả năng làm gián đoạn nhiều loại tín hiệu như:
-+ Wi-Fi (có thể chọn kênh gây nhiễu)
+NEBULAFORGE is a 2.4GHz frequency jammer, capable of disrupting many types of signals such as:
++ Wi-Fi (can select jamming channel)
 + Bluetooth
 + BLE (Bluetooth Low Energy)
-+ Drone RC
-+ Thiết bị IoT & các thiết bị không dây khác
++ RC Drones
++ IoT devices & other wireless devices
 
-## 📦 Linh kiện cần thiết
+## 📦 Required components
 
-| STT | Tên linh kiện                         | Số lượng | Ghi chú |
-|-----|----------------------------------------|----------|---------|
-| 1   | ESP32 NodeMCU                          | 1        |         |
-| 2   | Mạch sạc TP4056 (Micro USB / Type-C)   | 1        |         |
-| 3   | JST PH 2.0 connector                    | 1        |         |
-| 4   | Pin Li-Ion 3.7V                         | 1        |         |
-| 5   | Ăng-ten SMA                             | 2        |         |
-| 6   | E01-2G4M27D RF Module                   | 2        |         |
-| 7   | Tụ điện 10µF 50V                        | 2        |         |
-| 8   | LED 5mm                                 | 2        |         |
-| 9   | Điện trở 220Ω                           | 2        |         |
-| 10  | Công tắc SK12D07 chân cong              | 1        |         |
-| 11  | PCB mẫu                                 | 1        | Cần thiết kế lại từ file Gerber |
+| No. | Component name | Quantity | Note |
+|-----|-----------------------------------------|----------|----------|
+| 1 | ESP32 NodeMCU | 1 | |
+| 2 | TP4056 charging circuit (Micro USB / Type-C) | 1 | |
+| 3 | JST PH 2.0 connector | 1 | |
+| 4 | 3.7V Li-Ion battery | 1 | |
+| 5 | SMA antenna | 2 | |
+| 6 | E01-2G4M27D RF Module | 2 | |
+| 7 | 10µF 50V Capacitor | 2 | |
+| 8 | 5mm LED | 2 | |
+| 9 | 220Ω Resistor | 2 | |
+| 10 | SK12D07 Curved Pin Switch | 1 | |
+| 11 | Sample PCB | 1 | Need to redesign from Gerber file |
 
-⚠️ **Lưu ý:** Dự án không cung cấp sơ đồ mạch chi tiết vì mục đích bảo mật. Người dùng cần tự nghiên cứu và xây dựng sơ đồ mạch từ dữ liệu Gerber hoặc từ ảnh.
+⚠️ **Note:** The project does not provide detailed circuit diagrams for security purposes. Users need to research and build circuit diagrams themselves from Gerber data or from images.
 
-## 🛠️ Hướng dẫn lắp ráp
+## 🛠️ Assembly instructions
 
-1. Chuẩn bị đầy đủ linh kiện như bảng ở trên.
-2. Dựa theo file Gerber hoặc ảnh nguyên lý, tiến hành đặt linh kiện vào PCB đúng vị trí.
-3. Hàn chắc chắn các linh kiện vào bo mạch.
-4. Lắp pin Li-Ion vào mạch sạc TP4056 qua cổng JST.
-5. Kết nối Ăng-ten SMA và mô-đun RF với ESP32 theo sơ đồ nguyên lý.
+1. Prepare all components as shown in the table above.
 
-> Lưu ý: Dự án yêu cầu người dùng có kiến thức cơ bản về điện tử, đọc sơ đồ mạch, và kỹ năng hàn linh kiện.
+2. Based on the Gerber file or principle image, place the components on the PCB in the correct position.
 
-## 🔌 Nạp Firmware
+3. Solder the components firmly to the board.
+4. Insert the Li-Ion battery into the TP4056 charging circuit via the JST port.
 
-Hiện tại, firmware sẽ được cung cấp riêng cho từng thiết bị. Phần mềm hỗ trợ flash sẽ được công bố sau. Bạn có thể theo dõi cập nhật tại:
+5. Connect the SMA Antenna and RF module to the ESP32 according to the schematic diagram.
 
-- [Kênh Telegram](https://t.me/czdeveloper_news)
-- [Website chính thức](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge)
+> Note: The project requires users to have basic knowledge of electronics, reading circuit diagrams, and soldering skills.
 
-## 📚 Tham khảo
+## 🔌 Upload Firmware
 
-- GitBook chính thức: [NebulaForge](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge)
-- Hướng dẫn thiết lập: [Hướng dẫn chi tiết](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge/huong-dan-thiet-lap)
+Currently, firmware will be provided separately for each device. Flash support software will be announced later. You can follow the updates at:
+
+- [Telegram Channel](https://t.me/czdeveloper_news)
+- [Official Website](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge)
+
+## 📚 Reference
+
+- Official GitBook: [NebulaForge](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge)
+- Setup Guide: [Detailed Guide](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge/huong-dan-thiet-lap)
 
 ---
