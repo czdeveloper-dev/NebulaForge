@@ -48,5 +48,3 @@ Hiện tại, firmware sẽ được cung cấp riêng cho từng thiết bị. 
 - Hướng dẫn thiết lập: [Hướng dẫn chi tiết](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge/huong-dan-thiet-lap)
 
 ---
-
-*Được chuyển đổi từ tài liệu GitBook của CZDeveloper để sử dụng trong kho mã GitHub.*
