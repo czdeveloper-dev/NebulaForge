@@ -49,5 +49,5 @@ Currently, firmware will be provided separately for each device. Flash support s
 
 - Official GitBook: [NebulaForge](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge)
 - Setup Guide: [Detailed Guide](https://czdeveloper.gitbook.io/main/hardware/cyber-security/nebulaforge/huong-dan-thiet-lap)
-
+- Information : [Information](https://czdeveloper.gitbook.io/main/ban-cap-nhat/hardware/cyber-security/nebulaforge)
 ---
